@@ -9,10 +9,16 @@ body {
     /* font-size: 15px; */
 }
 
-.avatar {
+.me-img {
+    background-img: url("images/gabbie.png");
+    background-size: cover;
     width: 150px;
     border-radius: 20px;
-    box-shadow: #EF798A 2px 2px;
+    box-shadow: 2px 2px #EF798A;
+}
+
+.me-img:hover {
+    background: #7D82B8;
 }
 
 .card {
